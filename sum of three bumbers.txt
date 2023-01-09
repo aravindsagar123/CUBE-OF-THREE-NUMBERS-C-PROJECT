@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a,sum;
+    printf("enter you number");
+    scanf("%d",&a);
+    sum=a*a*a;
+    printf("the sum of the your number is %d", sum);
+    return 0;
+}
